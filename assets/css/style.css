@@ -81,7 +81,8 @@ p {
     color: white;
 }
 
-#course-content {
+#course-content,
+#professional-challenges {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -92,7 +93,8 @@ p {
     padding: 118px 0;
 }
 
-#course-content P {
+#course-content P,
+#professional-challenges p {
     font-size: 16px;
     width: 792px;
 }
@@ -125,6 +127,7 @@ p {
     height: 560px;
     background: url('../images/woman-code.png') center /cover;
     background-attachment: fixed;
+    border-bottom: 1px solid #33A8DB80;
 }
 
 #transform-world p {
@@ -135,4 +138,13 @@ p {
     text-transform: lowercase;
     text-shadow: 3px 2px 0px #31A8DD;
     margin-left: 198px;
+}
+
+#professional-challenges {
+    gap: 32px;
+}
+
+#professional-challenges h2 {
+    width: 760px;
+    text-align: center;
 }
