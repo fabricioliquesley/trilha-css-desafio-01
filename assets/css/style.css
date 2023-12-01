@@ -82,7 +82,8 @@ p {
 }
 
 #course-content,
-#professional-challenges {
+#professional-challenges,
+footer {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -150,10 +151,6 @@ p {
 }
 
 footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
     gap: 10px;
     background: linear-gradient(180deg, rgba(51, 168, 219, 0.00) 0%, rgba(51, 168, 219, 0.20) 99.99%, rgba(51, 168, 219, 0.20) 100%);
 
