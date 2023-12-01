@@ -1,1 +1,74 @@
 @import url(reset.css);
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background: black;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 900;
+
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+p {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url('../images/banner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    padding-top: 60px;
+    border-bottom: 1px solid #33A8DB80;
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 268px;
+    height: 268px;
+    background: rgba(0, 0, 0, .2);
+    border-radius: 50%;
+}
+
+.banner-content p {
+    width: 515px;
+}
+
+.banner-content button {
+    background: transparent;
+    border: 2px solid;
+    border-image-source: linear-gradient(#3BA1CD, #1572B7);
+    border-image-slice: 10;
+    padding: 19px 91px;
+    margin-top: 8px;
+    cursor: pointer;
+    transition: .4s;
+    
+    color: #31A8DD;
+    font-size: 16px;
+    font-weight: 900;
+    letter-spacing: 3.36px;
+    text-transform: uppercase;
+}
+
+.banner-content button:hover {
+    background: #3BA1CD;
+    color: white;
+}
